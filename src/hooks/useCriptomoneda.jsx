@@ -40,7 +40,6 @@ const useCriptomoneda = (label, stateInicial, opciones) => {
             </Select>
         </Fragment>
     );
-
     //retornar state, interfaz y funcion que modifica el state
     return [state, SelectCripto, actualizarState];
 }
